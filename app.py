@@ -15,6 +15,7 @@ API_URL = "https://openrouter.ai/api/v1/chat/completions"
 st.set_page_config(page_title="AI Chatbot", layout="centered")
 st.title("🧠 AI Chatbot Bubble Style")
 st.markdown(f"Powered by `{MODEL}` via OpenRouter 🤖")
+st.markdown("<p style='text-align: center; font-size: 0.9em;'>Explored & curated by <b>Axel</b></p>", unsafe_allow_html=True)
 
 # Tombol New Chat
 if st.button("🔄 New Chat"):
